@@ -1,0 +1,70 @@
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="index_style.css">
+    <script src="http://lib.sinaapp.com/js/jquery/1.7.2/jquery.min.js"></script>
+    <script src="js/cloudTag.js"></script>
+    <style type="text/css">
+        .tagBall{width:500px;height:500px;margin:50px auto;position:relative;right: 0px;}
+        .tag{display:block;position:absolute;left:0px;top:0px;color:#000;text-decoration:none;font-size:15px;font-weight:bold;}
+        .tag:hover{border:1px solid #666;}
+    </style>
+    <script type="text/javascript">
+        $(document).ready(function(){
+        $('.tagBall').cloudTag({
+        ballSize:200 // the size of the tag cloud ball
+        });
+        });
+    </script>
+    
+</head>
+<body>
+    <div class="canvas" id="lcanvas">
+        <div id="Intro">
+            <!-- <h1 >Hi, I am Naman Punj</h1> -->
+            <div class="title">
+                
+                <div class="a name0 char1" >H</div>
+                <div class="a name0 char1" >e</div>
+                <div class="a name0 char1" >l</div>
+                <div class="a name0 char1" >l</div>
+                <div class="a name0 char1" >o</div>
+                <div class="a name2">,</div>
+                <div class="a">I</div>
+                <div class="a">am</div>
+                <div class="a char1">N</div>
+                <div class="a name1">a</div>
+                <div class="a name1">m</div>
+                <div class="a name1">a</div>
+                <div class="a name1">n</div>
+                <div class="a ">P</div>
+                <div class="a name2">u</div>
+                <div class="a name2">n</div>
+                <div class="a name2">j</div>
+                
+            </div>
+            <p id="subpart">
+                <div id="sub_part1" >I love Web Development</div>
+                <div id="sub_part2" ><span id="sep">|</span> Student</div>
+            </p>
+        </div>
+    </div>
+    <div class="canvas" id="rcanvas">
+        <h>It's Right canvas</h>
+        <div class="tagBall">
+            <a class="tag" target="_blank" href="#">HTML</a>
+            <a class="tag" target="_blank" href="#">javascript</a>
+            <a class="tag" target="_blank" href="#">jquery</a>
+            <a class="tag" target="_blank" href="#">CSS</a>
+            <a class="tag" target="_blank" href="#">PYTHON</a>
+            <a class="tag" target="_blank" href="#">C#</a>
+            <a class="tag" target="_blank" href="#">C</a>
+            <a class="tag" target="_blank" href="#">HTML5</a>
+    
+        </div>
+
+    </div>
+
+    
+</body>
+</html>

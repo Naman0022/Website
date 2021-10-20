@@ -1,0 +1,115 @@
+body{
+    border: 0px;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+
+#lcanvas{
+    width: 50%;
+    left:0px;
+    color: white;
+}
+
+#intro{
+    /* font-size: 30px; */
+    position: absolute;
+    top: 170px;
+    margin-left: 100px;
+}
+#sub_part1{
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    color: #ff7f50;
+}
+#sep{
+  color: whitesmoke;
+}
+.tag{
+    position: inherit;
+    top: 50px;
+    color: turquoise;
+    text-decoration: none;
+}
+#sub_part2{
+    color: #ffa343;
+    position: absolute;
+    top: 80px;
+    left: 185px;
+}
+.title{
+    font-size: 50px;
+    padding-left: 8px;
+}
+.title .name0{
+  margin-left: -10px;
+}
+.title .name1{
+   margin-left: -10px;
+   font-weight: 400;
+}
+
+.title .name2{
+    margin-left: -10px;
+    font-weight: 500;
+}
+.title .char1{
+  font-size: 52px;
+  font-weight: 700;
+  font-family: "Times New Roman", Times, serif;
+  color: #ff7777;
+}
+.title .char1:hover{
+  color: #ff6600;
+}
+
+#rcanvas{
+    width: 50%;
+    margin-left: 50%;
+} 
+
+
+/* Bounce effect  */
+.a {
+    animation-duration: 0.7s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1.4;
+    position: relative;
+    display: inline-block;
+    
+  }
+.a:hover {
+    color: orange;
+    /* animation: rubberBand 5s infinite; */
+    animation-name: rubberBand ;
+}
+  
+@keyframes rubberBand {
+    from {
+      transform: scale3d(1, 1, 1);
+    }
+  
+    30% {
+      transform: scale3d(1.25, 0.75, 1);
+    }
+  
+    40% {
+      transform: scale3d(0.75, 1.25, 1);
+    }
+  
+    50% {
+      transform: scale3d(1.15, 0.85, 1);
+    }
+  
+    65% {
+      transform: scale3d(.95, 1.05, 1);
+    }
+  
+    75% {
+      transform: scale3d(1.05, .95, 1);
+    }
+  
+    to {
+      transform: scale3d(1, 1, 1);
+    }
+} 
