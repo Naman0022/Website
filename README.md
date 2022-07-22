@@ -1,2 +1,2 @@
 # Website
-tried doing some animation in css and timstamps other in javascript.
+Tried doing some animation in css and timstamps and other things in javascript.
